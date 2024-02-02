@@ -122,7 +122,7 @@
                   :field-subset="options.fields"
                   @updateFields="onUpdateTextWrapOption"
                 >
-                  <span>{{ $t('recordList.record.configureNonWrappingFelids') }}</span>
+                  {{ $t('recordList.record.configureNonWrappingFelids') }}
                 </column-picker>
               </b-form-group>
             </b-col>

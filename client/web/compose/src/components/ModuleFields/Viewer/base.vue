@@ -69,7 +69,7 @@ export default {
     classes () {
       const classes = []
       const { fieldID } = this.field
-      const { textStyles } = this.extraOptions
+      const { textStyles = {} } = this.extraOptions
 
       if (this.field.isMulti) {
         classes.push('multiline')
